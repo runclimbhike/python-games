@@ -3,8 +3,8 @@ import pgzrun
 from random import randint
 
 # VARIABLES
-WIDTH = 400
-HEIGHT = 400
+WIDTH = 600
+HEIGHT = 600
 
 score = 0
 
@@ -38,13 +38,13 @@ def update():
     global score
 
     if keyboard.left:
-        fox.x = fox.x - 4
+        fox.x = fox.x - 10
     elif keyboard.right:
-        fox.x = fox.x + 4
+        fox.x = fox.x + 10
     elif keyboard.up:
-        fox.y = fox.y - 4
+        fox.y = fox.y - 10
     elif keyboard.down:
-        fox.y = fox.y + 4
+        fox.y = fox.y + 10
 
     coin_collected = fox.colliderect(coin)
 
@@ -53,7 +53,8 @@ def update():
 
         place_coin()
 
-clock.schedule(time_up, 7.0)
+
+clock.schedule(time_up, 15.0)
 
 
 pgzrun.go()
