@@ -2,7 +2,6 @@
 # more comments to make a commit
 
 # IMPORTS
-from pgzrun import *
 import pgzrun
 from random import randint
 
@@ -16,8 +15,8 @@ def draw():
 
 
 def place_apple():
-    apple.x = randint(10, 800)
-    apple.y = randint(10, 800)
+    apple.x = randint(20, 600)
+    apple.y = randint(20, 600)
 
 
 def on_mouse_down(pos):
