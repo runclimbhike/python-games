@@ -1,5 +1,10 @@
+#!/usb/bin/python3
+
+# LIBRARIES NEEDED. INSTALL VIA PIP.
+# pygame
+# pygzero
+
 # Date: 2019-06-13
-# more comments to make a commit
 
 # IMPORTS
 import pgzrun
