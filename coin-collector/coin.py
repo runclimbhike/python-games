@@ -1,3 +1,11 @@
+#!/usb/bin/python3
+
+# LIBRARIES NEEDED. INSTALL VIA PIP.
+# pygame
+# pygzero
+
+# Date: 2019-06-13
+
 # IMPORTS
 import pgzrun
 from random import randint
